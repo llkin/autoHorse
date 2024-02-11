@@ -5,7 +5,7 @@ import sys
 while True:
     filename=input("Give file name =>")
     os.system("file "+filename+" 1>output.txt")
-    outputcontext1=open("/home/kali/lab/output.txt","r")
+    outputcontext1=open("output.txt","r")
     text1=outputcontext1.read()
     word1="gzip"
     word2="tar"
